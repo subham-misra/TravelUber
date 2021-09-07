@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>TravelUber</title>
+  </head>
+  <body>
+   
+
+    <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+      <strong>SUCCESS</strong> You have successfully submitted the form.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div id="fail" class="alert alert-danger alert-dismissible fade" role="alert">
+      <strong>FAILURE</strong> You have failled to Submit the form.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="container">
+      <h1>Welcome to TravelUber</h1>
+      <form>
+        <div class="input-group mb-3">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+            </div>
+            <input type="text" class="form-control" id="user" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username within 2 to 10 characters.
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="mail" placeholder="name@example.com">
+          <div class="invalid-feedback">
+            Please choose a email id with in 5 to 15 characters.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Phone Number</label>
+          <input type="number" class="form-control" id="phone" placeholder="12345678910">
+          <div class="invalid-feedback">
+            Please choose a correct phone number.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">select car</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>tata nano</option>
+            <option>tata tiago</option>
+            <option>merchedies</option>
+            <option>maroti van</option>
+            <option>hyndra sport</option>
+            <div class="invalid-feedback">Example invalid custom select feedback</div>
+          </select>
+        </div>
+        <!---<div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>--->
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Details of Travel</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button id="btn" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
